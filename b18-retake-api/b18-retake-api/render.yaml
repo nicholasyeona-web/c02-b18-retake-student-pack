@@ -1,0 +1,13 @@
+# Optional. The B18 retake paper runs this API locally on port 5123, so deployment is
+# not required. This blueprint is kept so the same API can be hosted on Render
+# without changes if a future sitting needs a public URL.
+services:
+  - type: web
+    name: cu2-b18-retake-makan-trail-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production

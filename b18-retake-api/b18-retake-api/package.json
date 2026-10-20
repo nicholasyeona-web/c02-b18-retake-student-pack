@@ -1,0 +1,17 @@
+{
+  "name": "b18-retake-api",
+  "version": "1.0.0",
+  "description": "Makan Trail Street Food Guide API - CU2 PA B18 retake back-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}

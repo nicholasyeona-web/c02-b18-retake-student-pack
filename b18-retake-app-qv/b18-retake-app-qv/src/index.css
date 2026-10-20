@@ -1,0 +1,17 @@
+/*
+  A minimal reset is provided so the page does not start with browser default
+  margins. All other styling is your responsibility — add your own styles here
+  and in App.css.
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.55;
+}
